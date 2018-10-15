@@ -1,3 +1,3 @@
 FROM node:6-alpine
 COPY server.js /app/
-CMD ["node", "/app/server.js"]
+CMD ["node", "/app/app.js"]
